@@ -466,7 +466,7 @@
     "command": "climate_on",
     "command_id": "047897dc-8023-4149-8408-2a6135a94815",
     "duration_ms": 20578,
-    "duration_wire_ms": -3176,
+    "duration_wire_ms": -317612312,
     "product_type": "lychee",
     "fw_version": "develop-2024.44.25",
     "number_of_tries": 5,
