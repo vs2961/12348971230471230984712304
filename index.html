@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JSON Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Data</h1>
+    <pre id="json-data"></pre>
+
+    <script>
+        const jsonDataUrl = 'https://vs2961.github.io/interview/data.json';
+
+        fetch(jsonDataUrl)
+           .then(response => response.json())
+           .then(data => {
+                const jsonDataElement = document.getElementById('json-data');
+                jsonDataElement.innerText = JSON.stringify(data, null, 4); // Pretty-print the JSON with 4 spaces indentation
+            })
+           .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</body>
+</html>
