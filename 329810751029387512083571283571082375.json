@@ -894,12 +894,12 @@
     "app_version": "4.38.5",
     "command": "climate_off",
     "command_id": "118fbcd1-712e-41bd-ae30-f2aab6cf8965",
-    "duration_ms": 25098,
-    "duration_wire_ms": 2222,
-    "product_type": "modely",
+    "duration_ms": 2509,
+    "duration_wire_ms": 222,
+    "product_type": "cybertruck",
     "fw_version": "bypass-nv9x-thermal-system",
     "number_of_tries": 5,
-    "result": "TIMEOUT"
+    "result": "SUCCESS"
   },
   {
     "app_version": "4.38.5",
